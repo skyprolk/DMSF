@@ -102,6 +102,8 @@ then
 	bash about.sh
 fi
 if  [ "${userinput1:-}" = "0" ]
-then
+then	
+	clear
 	exit
+fi
 
